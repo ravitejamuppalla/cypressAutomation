@@ -1,0 +1,12 @@
+[
+  {
+    "Env": "production",
+    "UserName": "admin",
+    "Password": "admin123"
+  },
+  {
+    "Env": "staging",
+    "UserName": "admin123",
+    "Password": "admin1231234"
+  }
+]

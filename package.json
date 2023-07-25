@@ -1,0 +1,32 @@
+{
+  "name": "cypressautomationframwork",
+  "version": "1.0.0",
+  "description": "learning the cypress automation",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "cypressopen": "cypress open",
+    "cy:run": "cypress run",
+    "cypressChromeHeaded": "cypress run --spec cypress\\e2e\\sampleFolder --browser chrome --headed",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypressParallel": "cypress-parallel -s cy:run -t 4 -d  cypress\\e2e\\sampleFolder -a '\"--browser chrome --headed\"'"
+  },
+  "author": "Ravi Teja Muppalla",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "cypress": "^12.17.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-parallel": "^0.13.0",
+    "cypress-promise": "^1.1.0"
+  }
+}

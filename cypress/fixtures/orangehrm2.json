@@ -1,0 +1,17 @@
+[
+  {
+    "username": "Admin",
+    "password": "admin123",
+    "dashboardHeading": "Dashboard"
+  },
+  {
+    "username": "admin12",
+    "password": "admin123",
+    "dashboardHeading": "Dashboard"
+  },
+  {
+    "username": "admin12345",
+    "password": "admin123",
+    "dashboardHeading": "Dashboard"
+  }
+]
